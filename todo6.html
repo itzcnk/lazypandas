@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="todo6.css">
+    <script src="todo6.js"></script>
+    <!-- Include your CSS files or styles here -->
+</head>
+
+<body>
+    <div>
+        <div>
+            <label for="taskTitleInput">Title:</label>
+            <input type="text" id="taskTitleInput">
+        </div>
+        <div>
+            <label for="taskDescriptionInput">Description:</label>
+            <textarea id="taskDescriptionInput"></textarea>
+        </div>
+        <div>
+            <label for="taskDeadlineInput">Deadline:</label>
+            <input type="date" id="taskDeadlineInput">
+        </div>
+
+        <div>
+            <!-- New priority dropdown -->
+            <label for="priorityDropdown">Priority:</label>
+            <select id="priorityDropdown">
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+        </div>
+
+        <button id="addButton">Add Task</button>
+
+        <ul id="taskList"></ul>
+    </div>
+
+
+</body>
+
+</html>
